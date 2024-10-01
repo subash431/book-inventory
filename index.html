@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Book Inventory</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5 text-center">
+      <h1 class="mb-4">Welcome to the Book Inventory Management System</h1>
+      <p class="lead">
+        Manage your book collection efficiently with our easy-to-use platform.
+      </p>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Add New Books</h5>
+              <p class="card-text">Easily add new books to your inventory.</p>
+              <a href="/add" class="btn btn-primary">Add Book</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Filter Books</h5>
+              <p class="card-text">
+                Search and filter your books based on various criteria.
+              </p>
+              <a href="/filter" class="btn btn-info">Filter Books</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Export Data</h5>
+              <p class="card-text">
+                Export your book inventory in JSON or CSV format.
+              </p>
+              <a href="/export" class="btn btn-secondary">Export Books</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
